@@ -1,0 +1,30 @@
+@import "./utility-patterns.css";
+@import 'vue3-easy-data-table/dist/style.css';
+
+:focus, :focus-visible, .input:focus {
+    @apply border-slate-300 outline-none ring-0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    @apply p-3 !border-0 text-sm;
+    /* 3 */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    @apply !border;
+}
+
+
+:focus, :focus-visible, .input:focus {
+    @apply border-slate-300 outline-none ring-0;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
